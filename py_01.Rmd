@@ -1,0 +1,14 @@
+---
+title: "Rozdział 1"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: Krzysztof Trajkowski
+bibliography: literatura.bib
+output:
+  html_document:
+    citation_package: natbib
+    toc: true
+link-citations: true
+---
+
+# Wprowadzenie
+

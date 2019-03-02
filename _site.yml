@@ -1,0 +1,12 @@
+name: "KTR"
+output_dir: "."
+navbar:
+  left:
+    - text: "Statystyka w Pyhon"
+      icon: fa-home
+      href: index.html
+    - text: "Wprowadzenie"
+      href: py_01.html
+output:
+  html_document:
+    theme: flatly

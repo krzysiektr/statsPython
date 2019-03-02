@@ -1,0 +1,5 @@
+---
+title: "Statystyka w Python"
+---
+
+ > Na tej stronie są zamieszczane materiały na temat wykorzystania języka python w statystyce.
