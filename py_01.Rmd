@@ -22,4 +22,4 @@ link-citations: true
 
 ## Uogólniony model liniowy
 
-
+## Inne modele
