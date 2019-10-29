@@ -1,5 +1,5 @@
 ---
-title: "Rozdział 1"
+title: "Prawdopodobieństwo"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 author: Krzysztof Trajkowski
 bibliography: literatura.bib
@@ -10,5 +10,16 @@ output:
 link-citations: true
 ---
 
-# Wprowadzenie
+# Rozkład
+
+## Dyskretny
+
+## Ciągły
+
+# Regresja
+
+## Klasyczny model liniowy
+
+## Uogólnione modele liniowe
+
 
