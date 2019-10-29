@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 <meta name="author" content="Krzysztof Trajkowski" />
@@ -86,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -247,18 +247,6 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -310,29 +298,29 @@ $(document).ready(function () {
 
 <h1 class="title toc-ignore">Prawdopodobieństwo</h1>
 <h4 class="author">Krzysztof Trajkowski</h4>
-<h4 class="date">01 września, 2019</h4>
+<h4 class="date">29 października, 2019</h4>
 
 </div>
 
 <div id="TOC">
 <ul>
-<li><a href="#rozkad">Rozkład</a><ul>
+<li><a href="#rozkład">Rozkład</a><ul>
 <li><a href="#dyskretny">Dyskretny</a></li>
-<li><a href="#ciagy">Ciągły</a></li>
+<li><a href="#ciągły">Ciągły</a></li>
 </ul></li>
 <li><a href="#regresja">Regresja</a><ul>
 <li><a href="#klasyczny-model-liniowy">Klasyczny model liniowy</a></li>
-<li><a href="#uogolnione-modele-liniowe">Uogólnione modele liniowe</a></li>
+<li><a href="#uogólniony-model-liniowy">Uogólniony model liniowy</a></li>
 </ul></li>
 </ul>
 </div>
 
-<div id="rozkad" class="section level1">
+<div id="rozkład" class="section level1">
 <h1>Rozkład</h1>
 <div id="dyskretny" class="section level2">
 <h2>Dyskretny</h2>
 </div>
-<div id="ciagy" class="section level2">
+<div id="ciągły" class="section level2">
 <h2>Ciągły</h2>
 </div>
 </div>
@@ -341,8 +329,8 @@ $(document).ready(function () {
 <div id="klasyczny-model-liniowy" class="section level2">
 <h2>Klasyczny model liniowy</h2>
 </div>
-<div id="uogolnione-modele-liniowe" class="section level2">
-<h2>Uogólnione modele liniowe</h2>
+<div id="uogólniony-model-liniowy" class="section level2">
+<h2>Uogólniony model liniowy</h2>
 </div>
 </div>
 
@@ -363,6 +351,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

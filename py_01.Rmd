@@ -20,6 +20,6 @@ link-citations: true
 
 ## Klasyczny model liniowy
 
-## Uogólnione modele liniowe
+## Uogólniony model liniowy
 
 
